@@ -60,17 +60,15 @@ main{
 	.step-box{
 		width: 90%;
 		margin-bottom: 20px;
+		margin: 20px auto;
 		display: block;
 		float: none;
 	}
-	h4{
-		display: inline;
-		width: 100%;
+	.step-box:last-child{
+		margin : 0 auto;
+	}
+	h4 br{
+		display: none;
+		width: 90%;
 
 	}
-	.step-img1{
-		max-width: 100%;
-		height: auto;
-	}
-
-}
